@@ -1,0 +1,49 @@
+name: Bug
+description: Bug
+title: '[Bug]: '
+labels: ['Bug']
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripcion
+      description: 'Descripcion'
+      value: |
+        1.
+        2.
+        3.
+        ...
+  - type: dropdown
+    id: Prioridad
+    attributes:
+      label: Prioridad
+      options:
+        - Alta
+        - Media
+        - Baja
+    validations:
+      required: false
+  - type: textarea
+    id: como_reproducir
+    attributes:
+      label: Como Reproducir
+      description: 'pasos para reprodcuir el bug'
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: comportamiento_esperado
+    attributes:
+      label: Comportamiento Esperado
+      description: 'como deberia funcionar'
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
