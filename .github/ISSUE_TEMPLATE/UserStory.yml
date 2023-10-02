@@ -10,8 +10,12 @@ body:
       description: 'Descripcion'
       value: |
         ## Descripcion
-
-
+  - type: textarea
+    id: SubsTaks
+    attributes:
+      label: list of Subtasks
+      description: 'SubTasks'
+      value: |
         ```[tasklist]
         ### Tareas
         - [ ] Tarea 1
